@@ -1,6 +1,6 @@
 # NarrativeXL
 
-This repository accompanies the "NarrativeXL: A Large-scale Dataset For Long-Term Memory Models" paper. Data .zip File is password-protected to avoid unintentional data contamination through web-scraping. The password coincides with the paper name (up to ":").
+This repository accompanies the "NarrativeXL: A Large-scale Dataset For Long-Term Memory Models" paper. Data .zip-file is password-protected to avoid unintentional data contamination through web-scraping. The password coincides with the paper name (up to ":").
 
 Train data link: https://osf.io/rxjsc
 
