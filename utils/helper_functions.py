@@ -29,3 +29,8 @@ if __name__ == "__main__":
 
     # For raw questions (with original named entities, except for "otherbook questions", for which all decoys from other books always get NEs from the true book.
     res = read_shortform_questions("../TrainSet/raw/shortform/2960.questions_shortform")
+
+    # Now different elements of this namedtuple correspond to different columns in the data.
+    # E.g. "res.questions[3]" would yield the list of questions associated with the fourth book scene, while "res.raw_chunk[3]" would yield the third book scene.
+    # As a reminder, a question in position i can test knowledge of information in any of the chunks in positions from 0 to i inclusive.
+    # "memory_loads" column specifies, for each question, the memory retention demand.
