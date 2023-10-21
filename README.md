@@ -59,8 +59,8 @@ entity_replacement.py can be used directly on files and directories. However, it
 ## If you want to expand the dataset:
 
 The general usage pipeline is 
-0) Pre-process raw books (remove Gutenberg boilerplate info, etc.)
-1) Run ProcessBooks.py (creates non-hierarchical true and false summaries).
-2) Run PrepareCharacterSubDicts.py to create named entity substitution dictionaries that will be later used by the QuestionGeneration script.
-3a) Run QuestionGeneration.py to generate multiple choice scene recognition questions.
-3b) For scene reconstruction questions, run CreateHiararchicalSummaries.py and then AddDistortedHierarchicalSummaries.py
+0. Pre-process raw books (remove Gutenberg boilerplate info, etc.)
+1. Run ProcessBooks.py (creates non-hierarchical true and false summaries).
+2. Run PrepareCharacterSubDicts.py to create named entity substitution dictionaries that will be later used by the QuestionGeneration script.
+3a. Run QuestionGeneration.py to generate multiple-choice scene recognition questions.
+3b. For scene reconstruction questions, run CreateHiararchicalSummaries.py and then AddDistortedHierarchicalSummaries.py
