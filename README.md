@@ -62,5 +62,8 @@ The general usage pipeline is
 0. Pre-process raw books (remove Gutenberg boilerplate info, etc.)
 1. Run ProcessBooks.py (creates non-hierarchical true and false summaries).
 2. Run PrepareCharacterSubDicts.py to create named entity substitution dictionaries that will be later used by the QuestionGeneration script.
-3a. Run QuestionGeneration.py to generate multiple-choice scene recognition questions.
-3b. For scene reconstruction questions, run CreateHiararchicalSummaries.py and then AddDistortedHierarchicalSummaries.py
+3. Generate questions:
+   <ol type="a">
+      <li>Run QuestionGeneration.py to generate multiple-choice scene recognition questions.</li>
+      <li>For scene reconstruction questions, run CreateHiararchicalSummaries.py and then AddDistortedHierarchicalSummaries.py</li>
+</ol>
